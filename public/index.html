@@ -19,6 +19,7 @@
     <script>
         console.log('share')
         wx && wx.ready(function () {   //需在用户可能点击分享按钮前就先调用
+            console.log('ready')
             wx.updateAppMessageShareData({
                 title: '"TRON" BOX PARTY', 
                 desc: "sorry we're late invitation", // 分享描述
@@ -27,6 +28,8 @@
             }, function (res) {
                 console.log(res)
                 //这里是回调函数 
+            }, function(err) {
+                console.log(err)
             });
         });
     </script>
