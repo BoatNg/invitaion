@@ -18,7 +18,7 @@
     <script src="//res.wx.qq.com/open/js/jweixin-1.4.0.js"></script>
     <script>
         console.log('share')
-        wx && wx.ready(function () {   //需在用户可能点击分享按钮前就先调用
+        wx.ready(function () {   //需在用户可能点击分享按钮前就先调用
             console.log('ready')
             wx.updateAppMessageShareData({
                 title: '"TRON" BOX PARTY', 
