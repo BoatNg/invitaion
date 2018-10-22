@@ -35,7 +35,7 @@ module.exports = {
   devServer: {
     port: 3000,
     // host: '192.168.0.104',
-    host: '172.23.1.247',
+    // host: '172.23.1.247',
     open: true // 配置自动启动浏览器
     // 配置代理(跨域)
   },

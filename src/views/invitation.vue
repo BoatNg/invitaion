@@ -1,27 +1,27 @@
 <template>
   <div class="invitationPage">
-   <img src="../assets/img/a/topText.png" alt="" >
-   <img src="../assets/img/a/centerText.png" alt="" >
-   <img src="../assets/img/a/bottomText.png" alt="" >
+   <img src="http://oi5j2489n.bkt.clouddn.com/4e80c5d2-9ca3-4c51-bf0a-1dc9ab1d3015.png" alt="" >
+   <img src="http://oi5j2489n.bkt.clouddn.com/178d4d9f-b537-4fc3-8e35-6b07aa0c0d5c.png" alt="" >
+   <img src="http://oi5j2489n.bkt.clouddn.com/7e04b564-69a1-4562-a663-2d31d07267c4.png" alt="" >
   </div>
 </template>
 
 <script>
 
 export default {
-    created(){
-    },
-    data(){
-        return{
-        }
+  created () {
+  },
+  data () {
+    return {
     }
+  }
 }
 </script>
 <style scoped lang="scss">
     .invitationPage{
         width:100%;
         height:100%;
-        background: url('../assets/img/a/bg.png') no-repeat;
+        background: url('http://oi5j2489n.bkt.clouddn.com/97f494cf-0445-4796-b954-9943724b7f7f.png') no-repeat;
         background-size: 100%;
         background-color: #000;
         color:white;

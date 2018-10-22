@@ -1,29 +1,29 @@
 <template>
   <div class="code">
-   <img src="../assets/img/c/logo.png" alt="">
-   <img src="../assets/img/c/time.png" alt="">
-    <img src="../assets/img/c/address.png" alt="">
+    <img src="http://oi5j2489n.bkt.clouddn.com/1ef7ec4b-acc3-403a-9501-0598543803fb.png" alt="">
+    <img src="http://oi5j2489n.bkt.clouddn.com/6b1c1789-b04c-45d6-a466-b06e6c294595.png" alt="">
+    <img src="http://oi5j2489n.bkt.clouddn.com/666d3a28-8f42-4b0d-95e5-0e426ef5b13f.png" alt="">
   </div>
 </template>
 
 <script>
 
 export default {
-    created(){
-       
-    },
-    data(){
-        return{
-            
-        }
+  created () {
+
+  },
+  data () {
+    return {
+
     }
+  }
 }
 </script>
 <style scoped lang="scss">
     .code{
         width:100%;
         height:100%;
-        background: url('../assets/img/c/bg.png') no-repeat;
+        background: url('http://oi5j2489n.bkt.clouddn.com/df89229f-9f14-499a-8aa8-b895600696b5.png') no-repeat;
         background-size: 100%;
         background-color: #000;
         color:white;

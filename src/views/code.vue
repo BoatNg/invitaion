@@ -1,28 +1,28 @@
 <template>
   <div class="code">
-   <img src="../assets/img/d/code.png" alt="">
-   <img src="../assets/img/d/text.png" alt="">
+   <img src="http://oi5j2489n.bkt.clouddn.com/b32f0168-64de-4994-a675-8f55526be90c.png" alt="">
+   <img src="http://oi5j2489n.bkt.clouddn.com/6b663e2a-98bc-4f22-ae28-dac2579e4554.png" alt="">
   </div>
 </template>
 
 <script>
 
 export default {
-    created(){
-       
-    },
-    data(){
-        return{
-            
-        }
+  created () {
+
+  },
+  data () {
+    return {
+
     }
+  }
 }
 </script>
 <style scoped lang="scss">
     .code{
         width:100%;
         height:100%;
-        background: url('../assets/img/d/bg.png') no-repeat;
+        background: url('http://oi5j2489n.bkt.clouddn.com/df89229f-9f14-499a-8aa8-b895600696b5.png') no-repeat;
         background-size: 100%;
         background-color: #000;
         color:white;

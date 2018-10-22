@@ -1,6 +1,6 @@
 <template>
   <div class="loadingPage">
-    <img src="../assets/img/loading/logo.png" alt="" >
+    <img src="http://oi5j2489n.bkt.clouddn.com/f575c25c-1642-40d8-afc7-2ee22985df46.png" alt="" >
     <div class="line">
     </div>
   </div>
@@ -9,20 +9,20 @@
 <script>
 
 export default {
-    created(){
-       
-    },
-    data(){
-        return{
-        }
+  created () {
+
+  },
+  data () {
+    return {
     }
+  }
 }
 </script>
 <style scoped lang="scss">
     .loadingPage{
         width:100%;
         height:100%;
-        background: url('../assets/img/loading/bg.png') no-repeat;
+        background: url('http://oi5j2489n.bkt.clouddn.com/31ebe178-4bc7-4ebd-b903-29cde94572f4.png') no-repeat;
         background-size: 100%;
         background-color: #000;
         color:white;
@@ -49,7 +49,7 @@ export default {
             animation-duration:3s;
             animation-timing-function:linear;
             animation-fill-mode : forwards;
-        }  
+        }
     }
     @keyframes mychange {
         0% {width:0%}
