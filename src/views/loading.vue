@@ -1,6 +1,7 @@
 <template>
   <div class="loadingPage">
     <img src="http://oi5j2489n.bkt.clouddn.com/f575c25c-1642-40d8-afc7-2ee22985df46.png" alt="" >
+    <img src="../assets/logo.png" alt="" style="display:none">
     <div class="line">
     </div>
   </div>
