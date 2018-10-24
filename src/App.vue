@@ -10,29 +10,29 @@
 <script>
 import loading from 'views/loading.vue'
 export default {
-    components:{
-      loading
-    },
-    data(){
-      return{
-        mp3:'http://sc1.111ttt.cn:8282/2015/1/12m/27/105271220492.m4a?tflag=1519095601&pin=6cd414115fdb9a950d827487b16b5f97#.mp3',
-        loadingShow:true
-      }
-    },
-    mounted(){
-    　　 var audio_success=document.querySelector("#audio");
-        document.addEventListener("WeixinJSBridgeReady",function(){
-          audio_success.play();
-        },false);
-        audio_success.onended = function () {
-            music.load();
-            music.play();
-        }
-
-        setTimeout(()=>{
-          this.loadingShow=false
-        },3000)
+  components: {
+    loading
+  },
+  data () {
+    return {
+      mp3: 'http://sc1.111ttt.cn:8282/2015/1/12m/27/105271220492.m4a?tflag=1519095601&pin=6cd414115fdb9a950d827487b16b5f97#.mp3',
+      loadingShow: true
     }
+  },
+  mounted () {
+    var audio_success = document.querySelector('#audio')
+    document.addEventListener('WeixinJSBridgeReady', function () {
+      audio_success.play()
+    }, false)
+    audio_success.onended = function () {
+      music.load()
+      music.play()
+    }
+
+    setTimeout(() => {
+      this.loadingShow = false
+    }, 4000)
+  }
 }
 </script>
 
