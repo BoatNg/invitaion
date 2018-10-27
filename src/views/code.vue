@@ -1,6 +1,6 @@
 <template>
   <div class="code">
-   <img src="http://oi5j2489n.bkt.clouddn.com/b32f0168-64de-4994-a675-8f55526be90c.png" alt="">
+   <img src="http://media.hkfsvip.com/72d2921b-0a29-4a4e-856d-7cc4f4ffd050.png" alt="" class="codeBox">
    <img src="http://oi5j2489n.bkt.clouddn.com/6b663e2a-98bc-4f22-ae28-dac2579e4554.png" alt="">
   </div>
 </template>
@@ -13,7 +13,7 @@ export default {
   },
   data () {
     return {
-
+      img: 'http://oi5j2489n.bkt.clouddn.com/b32f0168-64de-4994-a675-8f55526be90c.png'
     }
   }
 }
@@ -33,15 +33,21 @@ export default {
             right:0;
             bottom:0;
             position: absolute;
-            width:100%;
-            height:100%;
             &:nth-child(2){
+                width:100%;
+                height:100%;
                 animation-name:myenter;
                 animation-duration:2s;
                 animation-timing-function:linear;
                 animation-iteration-count:1;
                 animation-fill-mode : forwards;
             }
+        }
+        .codeBox{
+            width:80%;
+            top:15%;
+            left:10%;
+            position: absolute;
         }
     }
 </style>
