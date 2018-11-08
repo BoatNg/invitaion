@@ -47,7 +47,7 @@ export default {
             bottom:30%;
             left:20%;
             animation-name:mychange;
-            animation-duration:3s;
+            animation-duration:4s;
             animation-timing-function:linear;
             animation-fill-mode : forwards;
         }
